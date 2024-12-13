@@ -20,6 +20,7 @@ industry_options = df['Industry'].fillna("N/A").unique().tolist()
 
 # Initialize the Dash app
 app = Dash(__name__)
+server = app.server  # This exposes the Flask server for Gunicorn
 
 # Layout of the app
 app.layout = html.Div([
