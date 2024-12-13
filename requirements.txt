@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Dec 13 10:38:10 2024
+
+@author: vxu
+"""
+
+dash
+pandas
+plotly
+gunicorn
+openpyxl
