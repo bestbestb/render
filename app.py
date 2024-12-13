@@ -3,7 +3,7 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 
 # Load your dataset
-file_path = r"C:\local\sample 2024.xlsx"  # Replace with your actual file path
+file_path = "./sample 2024.xlsx"  # Replace with your actual file path
 df = pd.read_excel(file_path)
 
 # Define column groups for the Y-axis
