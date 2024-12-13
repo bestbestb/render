@@ -181,8 +181,9 @@ def update_charts(x_axis_choice, y_axis_choice, selected_industries, selected_th
     return funnel_fig, table_html, percentage_html
 
 # Run the app
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8080)
+
 
 
 
